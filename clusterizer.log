@@ -1,0 +1,28 @@
+[__main__] [2025-05-13 02:43:44,126] [DEBUG]: debug
+[__main__] [2025-05-13 02:44:01,174] [INFO]: Загружен суммаризатор для английского языка
+[__main__] [2025-05-13 02:44:05,554] [INFO]: Загружен суммаризатор для русского языка
+[__main__] [2025-05-13 02:44:22,130] [INFO]: Работа с папкой: /content/drive/MyDrive/InputData
+[__main__] [2025-05-13 02:44:22,618] [INFO]: Загружена модель для эмбеддингов: all-MiniLM-L6-v2
+[__main__] [2025-05-13 02:44:22,635] [INFO]: Чтение файлов из папки: /content/drive/MyDrive/TrainData
+[__main__] [2025-05-13 02:44:22,658] [INFO]: Обработка файла: In combustion, the homogeneous reactions leading to NO are principally.png
+[__main__] [2025-05-13 02:44:29,693] [DEBUG]: Успешно извлечен текст из файла In combustion, the homogeneous reactions leading to NO are principally.png, длина текста: 2303 символов
+[__main__] [2025-05-13 02:44:29,706] [INFO]: Обработка файла: Micropropagation is the clonal propagation of.png
+[__main__] [2025-05-13 02:44:35,417] [DEBUG]: Успешно извлечен текст из файла Micropropagation is the clonal propagation of.png, длина текста: 2668 символов
+[__main__] [2025-05-13 02:44:35,439] [INFO]: Обработка файла: A honey jar of 300ml capacity (Freeman & Harding.png
+[__main__] [2025-05-13 02:44:44,573] [DEBUG]: Успешно извлечен текст из файла A honey jar of 300ml capacity (Freeman & Harding.png, длина текста: 4252 символов
+[__main__] [2025-05-13 02:44:44,586] [INFO]: Обработка файла: There are five main sages of micropropagation by.png
+[__main__] [2025-05-13 02:44:54,381] [DEBUG]: Успешно извлечен текст из файла There are five main sages of micropropagation by.png, длина текста: 4335 символов
+[__main__] [2025-05-13 02:44:54,393] [INFO]: Обработка файла: Cultures can be stored, without subculture, for.png
+[__main__] [2025-05-13 02:45:00,099] [DEBUG]: Успешно извлечен текст из файла Cultures can be stored, without subculture, for.png, длина текста: 3205 символов
+[__main__] [2025-05-13 02:45:00,111] [INFO]: Обработка файла: No summary available.txt
+[__main__] [2025-05-13 02:45:00,137] [DEBUG]: Успешно извлечен текст из файла No summary available.txt, длина текста: 628 символов
+[__main__] [2025-05-13 02:45:00,160] [INFO]: Обработка файла: Копия em2.png
+[__main__] [2025-05-13 02:45:01,274] [DEBUG]: Успешно извлечен текст из файла Копия em2.png, длина текста: 183 символов
+[__main__] [2025-05-13 02:45:01,286] [INFO]: Всего обработано файлов: 7
+[__main__] [2025-05-13 02:45:02,632] [INFO]: Созданы эмбеддинги для 7 текстов, размерность: (7, 384)
+[__main__] [2025-05-13 02:45:02,654] [DEBUG]: Выполнена нормализация эмбеддингов
+[__main__] [2025-05-13 02:45:02,684] [DEBUG]: Проверка нормализации: норма первого вектора = 1.0
+[__main__] [2025-05-13 02:45:02,704] [INFO]: Начало обучения модели KMeans с 3 кластерами
+[__main__] [2025-05-13 02:45:02,728] [INFO]: Модель KMeans успешно обучена, центроиды: (3, 384)
+[__main__] [2025-05-13 02:45:02,754] [INFO]: Кластеризация файлов в папке: /content/drive/MyDrive/InputData
+[__main__] [2025-05-13 02:45:02,782] [INFO]: Обработка файлов завершена
