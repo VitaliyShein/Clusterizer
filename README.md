@@ -4,5 +4,5 @@ After moves your files to clusters folder which is defines in the process
 
 # Instruction
 1) Your files shold be in a folder named "InputData"
-2) Data for training clusterization should be in a folder named "TrainData"
+2) Data for training clusterization should be in a folder named "InputData"
 3) You should also change your directory straight in the code
